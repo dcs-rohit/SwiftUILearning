@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8320149125DFBEAA007CD02A /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8320149025DFBEAA007CD02A /* song.mp3 */; };
+		8320149425DFC070007CD02A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320149325DFC070007CD02A /* PlayerView.swift */; };
 		83CD56C925DE399F00DE1741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD56C825DE399F00DE1741 /* AppDelegate.swift */; };
 		83CD56CB25DE399F00DE1741 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD56CA25DE399F00DE1741 /* SceneDelegate.swift */; };
 		83CD56CD25DE399F00DE1741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD56CC25DE399F00DE1741 /* ContentView.swift */; };
 		83CD56CF25DE39A100DE1741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CD56CE25DE39A100DE1741 /* Assets.xcassets */; };
 		83CD56D225DE39A100DE1741 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CD56D125DE39A100DE1741 /* Preview Assets.xcassets */; };
 		83CD56D525DE39A100DE1741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CD56D325DE39A100DE1741 /* LaunchScreen.storyboard */; };
+		83CD56DF25DE3AA500DE1741 /* inv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83CD56DD25DE3AA500DE1741 /* inv.xcdatamodeld */; };
+		83CD56E325DE3E8A00DE1741 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD56E225DE3E8A00DE1741 /* TextStyle.swift */; };
+		83CD56E825DE422100DE1741 /* RadioButtonField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD56E725DE422100DE1741 /* RadioButtonField.swift */; };
+		83CD56EB25DE429000DE1741 /* RadioButtonGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD56EA25DE429000DE1741 /* RadioButtonGroups.swift */; };
+		83CD56F125DE468D00DE1741 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD56F025DE468D00DE1741 /* CustomColor.swift */; };
+		83CD570625DE749600DE1741 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD570525DE749600DE1741 /* LoginView.swift */; };
+		83CD570A25DE895900DE1741 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD570925DE895900DE1741 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8320149025DFBEAA007CD02A /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		8320149325DFC070007CD02A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		83CD56C525DE399F00DE1741 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CD56C825DE399F00DE1741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83CD56CA25DE399F00DE1741 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		83CD56D125DE39A100DE1741 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83CD56D425DE39A100DE1741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83CD56D625DE39A100DE1741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CD56DE25DE3AA500DE1741 /* inv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = inv.xcdatamodel; sourceTree = "<group>"; };
+		83CD56E225DE3E8A00DE1741 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		83CD56E725DE422100DE1741 /* RadioButtonField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonField.swift; sourceTree = "<group>"; };
+		83CD56EA25DE429000DE1741 /* RadioButtonGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroups.swift; sourceTree = "<group>"; };
+		83CD56F025DE468D00DE1741 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		83CD570525DE749600DE1741 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		83CD570925DE895900DE1741 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8320148F25DFBE82007CD02A /* MP3Example */ = {
+			isa = PBXGroup;
+			children = (
+				8320149325DFC070007CD02A /* PlayerView.swift */,
+			);
+			path = MP3Example;
+			sourceTree = "<group>";
+		};
 		83CD56BC25DE399F00DE1741 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +82,19 @@
 		83CD56C725DE399F00DE1741 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				8320148F25DFBE82007CD02A /* MP3Example */,
+				83CD570425DE748100DE1741 /* Views */,
+				83CD56E625DE420A00DE1741 /* Helpers */,
+				83CD56E125DE3E6D00DE1741 /* Extensions */,
 				83CD56C825DE399F00DE1741 /* AppDelegate.swift */,
 				83CD56CA25DE399F00DE1741 /* SceneDelegate.swift */,
 				83CD56CC25DE399F00DE1741 /* ContentView.swift */,
+				8320149025DFBEAA007CD02A /* song.mp3 */,
 				83CD56CE25DE39A100DE1741 /* Assets.xcassets */,
 				83CD56D325DE39A100DE1741 /* LaunchScreen.storyboard */,
 				83CD56D625DE39A100DE1741 /* Info.plist */,
 				83CD56D025DE39A100DE1741 /* Preview Content */,
+				83CD56DD25DE3AA500DE1741 /* inv.xcdatamodeld */,
 			);
 			path = SwiftUILearning;
 			sourceTree = "<group>";
@@ -73,6 +105,33 @@
 				83CD56D125DE39A100DE1741 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83CD56E125DE3E6D00DE1741 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83CD56E225DE3E8A00DE1741 /* TextStyle.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		83CD56E625DE420A00DE1741 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				83CD56E725DE422100DE1741 /* RadioButtonField.swift */,
+				83CD56EA25DE429000DE1741 /* RadioButtonGroups.swift */,
+				83CD56F025DE468D00DE1741 /* CustomColor.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		83CD570425DE748100DE1741 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83CD570525DE749600DE1741 /* LoginView.swift */,
+				83CD570925DE895900DE1741 /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83CD56D525DE39A100DE1741 /* LaunchScreen.storyboard in Resources */,
+				8320149125DFBEAA007CD02A /* song.mp3 in Resources */,
 				83CD56D225DE39A100DE1741 /* Preview Assets.xcassets in Resources */,
 				83CD56CF25DE39A100DE1741 /* Assets.xcassets in Resources */,
 			);
@@ -145,8 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83CD56E825DE422100DE1741 /* RadioButtonField.swift in Sources */,
+				83CD56E325DE3E8A00DE1741 /* TextStyle.swift in Sources */,
 				83CD56C925DE399F00DE1741 /* AppDelegate.swift in Sources */,
+				8320149425DFC070007CD02A /* PlayerView.swift in Sources */,
+				83CD570A25DE895900DE1741 /* MainView.swift in Sources */,
+				83CD570625DE749600DE1741 /* LoginView.swift in Sources */,
+				83CD56DF25DE3AA500DE1741 /* inv.xcdatamodeld in Sources */,
+				83CD56EB25DE429000DE1741 /* RadioButtonGroups.swift in Sources */,
 				83CD56CB25DE399F00DE1741 /* SceneDelegate.swift in Sources */,
+				83CD56F125DE468D00DE1741 /* CustomColor.swift in Sources */,
 				83CD56CD25DE399F00DE1741 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +411,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83CD56DD25DE3AA500DE1741 /* inv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83CD56DE25DE3AA500DE1741 /* inv.xcdatamodel */,
+			);
+			currentVersion = 83CD56DE25DE3AA500DE1741 /* inv.xcdatamodel */;
+			path = inv.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 83CD56BD25DE399F00DE1741 /* Project object */;
 }
